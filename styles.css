@@ -402,7 +402,7 @@ h3 {
                 }
                 &:nth-child(1) {
                     grid-column: span 2;
-                    grid-row: span 2;
+                    grid-row: span 3;
                     @media(max-width:1024px){
                         grid-column: span 2;
                         grid-row: span 2;
@@ -410,7 +410,7 @@ h3 {
                 }
                 &:nth-child(2) {
                     grid-column: span 3;
-                    grid-row: span 2;
+                    grid-row: span 3;
                     @media(max-width:1024px){
                         grid-column: span 3;
                         grid-row: span 2;
@@ -418,7 +418,7 @@ h3 {
                 }
                 &:nth-child(3) {
                     grid-column: span 5;
-                    grid-row: span 2;
+                    grid-row: span 4;
                     @media(max-width:1024px){
                         grid-column: span 5;
                         grid-row: span 2;
@@ -428,3 +428,4 @@ h3 {
             }
         }
 }
+
